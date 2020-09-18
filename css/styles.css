@@ -1,0 +1,296 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 2.5rem !important;
+  line-height: 1.5;
+  font-weight: lighter !important;
+  color: white;
+}
+
+#title {
+  background-color: black;
+}
+
+.container-fluid {
+  padding: 0% 10% 0%;
+}
+
+.container-two {
+  padding: 3% 10% 0%;
+}
+
+.btn-style {
+  margin-top: 50px;
+}
+
+.home-content {
+  text-shadow: 0 0 8px black;
+  font-weight: bolder;
+}
+
+.Contact-fluid {
+  padding: 0% 5% 0%;
+}
+
+.Address {
+  padding-top: 15px;
+  display: inline-block;
+  color: white;
+}
+
+.Email-contact {
+  display: inline-block;
+  color: white;
+}
+
+.Contact-no {
+  display: inline-block;
+  color: white;
+  padding-bottom: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#CTA-1 {
+  color: black;
+  border: 3px solid black;
+  border-radius: 0;
+}
+
+#CTA-1:hover {
+  background-color: #0f0;
+}
+
+#CTA-2 {
+  border-radius: 0;
+  color: black;
+  font-weight: lighter;
+  background-color: #0f0;
+  margin-bottom: 10%;
+}
+
+#CTA-3 {
+  border-radius: 0;
+  color: white;
+  background-color: black;
+  font-weight: lighter;
+  margin-bottom: 10%;
+}
+
+#CTA-2:hover {
+  color: white;
+  background-color: black;
+}
+
+#CTA-3:hover {
+  color: black;
+  background-color: #0f0;
+}
+
+#CTA-4 {
+  margin-left: 42%;
+  border-radius: 0;
+  color: black;
+  background-color: #0f0;
+}
+
+#CTA-4:hover {
+  background-color: white;
+}
+
+#CTA-5 {
+  background-color: black;
+}
+
+#CTA-5:hover {
+  color: white;
+  background-color: #1d2d50;
+}
+
+#logo-img {
+  width: 70px;
+  height: 70px;
+  margin-left: 80px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-weight: lighter !important;
+}
+
+.Home {
+  width: 100%;
+  height: 630px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  background: rgba(255, 255, 255, 0.6);
+  background-size: cover;
+  background-image: url("../images/Home.jpg");
+}
+
+/* .Home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,.15);
+} */
+.Specs {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/About.jpg");
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bolder;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-para {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.row {
+  font-weight: lighter;
+}
+
+.about-para {
+  text-align: left;
+}
+
+#features {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/features.jpg");
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bolder;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.feature-box {
+  padding-top: 70px;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-paraa {
+  padding-top: 10px;
+  font-weight: bolder;
+  font-size: .8rem;
+}
+
+#Specifications {
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/Specify.jpg");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Specifications2 {
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/Specification.jpg");
+  margin: 0% !important;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Rental {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/Rent.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Newsletter {
+  text-align: center;
+  padding-top: 70px;
+  background-color: rgba(169, 169, 169, .5);
+  width: 100%;
+}
+
+.e-mail {
+  text-align: center;
+  color: black;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+#Contact {
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.social-icon{
+  border: none;
+  padding:0 15px 0;
+}
+#footer{
+  background-color: black;
+  padding: 0% 15% 0%;
+  color: white;
+  font-family:'Josefin Sans', sans-serif;
+  font-weight: lighter;
+}
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .Specs {
+    height: 100%;
+    text-align: center;
+  }
+
+  .about-para {
+    text-align: center;
+  }
+
+  .top-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    position: static;
+  }
+}
