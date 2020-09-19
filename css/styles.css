@@ -151,15 +151,6 @@ h1 {
   background-image: url("../images/Home.jpg");
 }
 
-/* .Home::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(255,255,255,.15);
-} */
 .Specs {
   width: 100%;
   height: 600px;
@@ -221,6 +212,7 @@ h1 {
   width: 100%;
   height: 700px;
   background-size: cover;
+  padding-top:120px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -233,6 +225,7 @@ h1 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top:120px;
 }
 
 #Rental {
@@ -260,7 +253,7 @@ h1 {
 
 #Contact {
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .social-icon{
   border: none;
@@ -273,20 +266,81 @@ h1 {
   font-family:'Josefin Sans', sans-serif;
   font-weight: lighter;
 }
+.about-us-class{
+  padding-top: 80px;
+}
+@media (max-width: 1400px) {
+  .about-para{
+    font-size:1.1rem;
+  }
+  #Specifications{
+    padding-top: 40px;
+    font-size: .8rem;
+  }
+
+  #CTA-2{
+    margin-bottom:10px;
+      font-size: .8rem;
+  }
+  #CTA-3{
+margin-bottom: 10px;;
+  font-size: .8rem;
+  }
+}
 @media (max-width: 1000px) {
   #title {
     text-align: center;
   }
-
+  #Specifications{
+    padding-top: 40px;
+    font-size: .8rem;
+  }
+  #Specifications2{
+    padding-top: 80px;
+  }
+  #CTA-2{
+    margin:none;
+      font-size: .8rem;
+  }
+  #CTA-3{
+margin: none;
+  font-size: .8rem;
+  }
+  #CTA-4{
+    margin-top: 0;
+    margin-left: 28%;
+  }
   .Specs {
-    height: 100%;
+    height:700px;
     text-align: center;
   }
-
+  .about-para{
+    font-size:1rem;
+  }
+.about-us-class{
+  padding-top: 60px;
+}
   .about-para {
     text-align: center;
   }
+  #features{
+    font-size: .8rem;
+    height: 800px;
+  }
+  .feature-row{
+    padding-top: 15px;
+  }
+  #feature-heading{
+    padding-top: 0;
+    font-size: 1.2rem;
+  }
+.feature-box{
+  display: inline-block;
+  padding-top: 1% ;
+  text-align: center;
+font-size: .5rem;
 
+}
   .top-img {
     width: 100%;
     height: 100%;
